@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161108075918) do
+ActiveRecord::Schema.define(version: 20161108081849) do
 
   create_table "managers", force: :cascade do |t|
     t.string "name"
@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 20161108075918) do
     t.string "duration"
     t.date   "year_of_release"
     t.string "album_release"
+    t.string "artist_last_name"
   end
 
 end
